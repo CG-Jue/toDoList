@@ -1,0 +1,42 @@
+/api/game 比赛信息列表
+
+/api/game/「gameID」特定比赛ID信息
+
+/api/account/login 登陆api
+
+/api/admin/config 一种用来判断cookie是否有效的api
+
+/api/game/「game_id』/notices 比赛通知
+
+/api/game/「game_id」/CheatInfo 比赛作弊信息
+
+/api/edit/games/「game_id」/challenges 比赛题目列表
+
+/api/game/「game_id」/challenges/「challenge_id」比赛题目信息
+
+/api/edit/games/「game_id」/challenges/「challenge_id」 开关题目
+
+/api/admin/participation/「team_id」/Suspended 封禁队伍
+
+/api/admin/teams/「teamId」 解锁队伍
+
+/api/admin/teams/search?hint=「teamName」 通过队伍名字获取队伍id
+
+
+/api/admin/teams/search?hint=「teamId」 通过队伍id获取队伍info
+
+/api/game/「game_Id」/participations 通过gameid获取队伍info
+
+/api/game/「game_id」/scoreboard 通过gameid 获取排行榜
+
+/api/game/「game_id」/details 通过题目名获取题目信息
+
+/api/admin/Users/Search?hint=「userName」 通过用户名获取用户信息
+
+/api/admin/Users/「userId」/Password 通过userid重置密码
+
+
+/api/edit/games/「gameId」/notices 增加公告
+
+api/edit/games/「gameId」/challenges/「challengeId」增加提示
+
