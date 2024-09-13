@@ -35,8 +35,10 @@
 
 /api/admin/Users/「userId」/Password 通过userid重置密码
 
-
 /api/edit/games/「gameId」/notices 增加公告
 
 api/edit/games/「gameId」/challenges/「challengeId」增加提示
 
+/api/game/「gameId」/participations 获取队伍报名比赛信息
+
+/api/admin/participation/「teamReportId」/Accepted 同意队伍报名
